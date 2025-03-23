@@ -1,14 +1,14 @@
 import './App.css';
-import React from 'react'
+import RecatFormSubmit from './Components/recatFormSubmit';
 
 const App = () => {
   return (
-    <div >
-      <button onClick={()=>console.log("hi karthikeya")}> click here</button>
+    <div>
+      <center>
+        <RecatFormSubmit />
+      </center>
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
+export default App;
