@@ -1,11 +1,13 @@
 import './App.css';
-import RecatFormSubmit from './Components/recatFormSubmit';
+import Calculation from './Components/calculationApp';
+// import RecatFormSubmit from './Components/recatFormSubmit';
 
 const App = () => {
   return (
     <div>
       <center>
-        <RecatFormSubmit />
+        {/* <RecatFormSubmit /> */}
+        <Calculation/>
       </center>
     </div>
   );
