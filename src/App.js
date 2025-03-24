@@ -1,13 +1,15 @@
 import './App.css';
-import Calculation from './Components/calculationApp';
 // import RecatFormSubmit from './Components/recatFormSubmit';
+// import Calculation from './Components/calculationApp';
+import Fetch from './Components/Fetch';
 
 const App = () => {
   return (
     <div>
       <center>
         {/* <RecatFormSubmit /> */}
-        <Calculation/>
+        {/* <Calculation/> */}
+        <Fetch/>
       </center>
     </div>
   );
